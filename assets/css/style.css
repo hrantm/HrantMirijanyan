@@ -215,7 +215,7 @@ fieldset {
 .particle-bg {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg2.jpg);
+    background: url(../images/bg/space.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -244,7 +244,7 @@ fieldset {
 
 .header-text h1 {
     color: #fafafa;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 900;
     text-transform: capitalize;
 }
@@ -445,7 +445,10 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.about-image {}
+.about-image {
+  width: 400px;
+  height: auto;
+}
 
 .about-text h2 {
     font-size: 12px;
